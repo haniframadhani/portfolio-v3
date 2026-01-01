@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Gabarito", sans-serif;
+
+  --text-9xl: 9.313rem;
+  --text-8xl: 7.451rem;
+  --text-7xl: 5.69rem;
+  --text-6xl: 4.768rem;
+  --text-5xl: 3.815rem;
+  --text-4xl: 3.052rem;
+  --text-3xl: 2.441rem;
+  --text-2xl: 1.953rem;
+  --text-xl: 1.563rem;
+  --text-lg: 1.25rem;
+  --text-base: 1rem;
+  --text-sm: 0.8rem;
+  --text-xs: 0.64rem;
+}
+
+@theme static {
+  --color-primary-50: oklch(0.966 0.014 264.53);
+  --color-primary-100: oklch(0.923 0.035 264.4);
+  --color-primary-200: oklch(0.845 0.073 262.58);
+  --color-primary-300: oklch(0.775 0.108 259.8);
+  --color-primary-400: oklch(0.699 0.152 254.57);
+  --color-primary-500: oklch(0.622 0.167 251.32);
+  --color-primary-600: oklch(0.545 0.146 251.18);
+  --color-primary-700: oklch(0.469 0.126 251.37);
+  --color-primary-800: oklch(0.363 0.098 251.46);
+  --color-primary-900: oklch(0.249 0.067 251.79);
+  --color-primary-950: oklch(0.188 0.051 250.47);
+
+  --color-secondary-50: oklch(0.958 0.061 166.29);
+  --color-secondary-100: oklch(0.904 0.152 166.03);
+  --color-secondary-200: oklch(0.831 0.172 166.17);
+  --color-secondary-300: oklch(0.758 0.157 165.96);
+  --color-secondary-400: oklch(0.68 0.141 166.03);
+  --color-secondary-500: oklch(0.611 0.127 166.11);
+  --color-secondary-600: oklch(0.514 0.106 166.11);
+  --color-secondary-700: oklch(0.421 0.087 165.88);
+  --color-secondary-800: oklch(0.329 0.068 166.03);
+  --color-secondary-900: oklch(0.227 0.047 165.92);
+  --color-secondary-950: oklch(0.181 0.038 166.07);
+
+  --color-accent-50: oklch(0.958 0.018 26.18);
+  --color-accent-100: oklch(0.917 0.038 28.08);
+  --color-accent-200: oklch(0.836 0.08 29.37);
+  --color-accent-300: oklch(0.757 0.132 33.31);
+  --color-accent-400: oklch(0.676 0.187 39.19);
+  --color-accent-500: oklch(0.585 0.162 39.02);
+  --color-accent-600: oklch(0.498 0.138 39.34);
+  --color-accent-700: oklch(0.408 0.112 39.46);
+  --color-accent-800: oklch(0.319 0.088 39.74);
+  --color-accent-900: oklch(0.232 0.064 39.3);
+  --color-accent-950: oklch(0.182 0.051 38.32);
+
+  --color-primary: var(--color-primary-700);
+  --color-secondary: var(--color-secondary-500);
+  --color-accent: var(--color-accent-400);
+}
