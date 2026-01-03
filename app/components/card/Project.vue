@@ -1,6 +1,9 @@
 <template>
   <NuxtLink to="#">
-    <UCard variant="soft" class="hover:shadow-lg hover:shadow-secondary-800 duration-300">
+    <UCard
+      variant="soft"
+      class="hover:shadow-lg hover:shadow-secondary-800 duration-300"
+    >
       <div class="grid md:grid-cols-2 gap-6">
         <div>
           <h3 class="font-bold font-display text-3xl mb-4">Title of Project</h3>
@@ -9,9 +12,9 @@
             Perferendis corporis rem assumenda expedita quae asperiores a optio
             animi sit quia.
           </p>
-          <NuxtLink to="#" class="text-sm">View the process</NuxtLink>
+          <span class="text-sm">View the process</span>
         </div>
-        <NuxtPicture
+        <NuxtImg
           src="/images/project.jpg"
           class="size-full aspect-square object-cover rounded-md overflow-hidden order-first md:order-last"
         />
