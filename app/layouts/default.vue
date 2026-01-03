@@ -7,6 +7,7 @@ import Navbar from "~/components/Navbar.vue";
   <main class="-mt-(--ui-header-height)">
     <slot />
   </main>
+  <Footer />
 </template>
 
 <style>
