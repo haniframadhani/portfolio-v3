@@ -19,5 +19,15 @@
         quaerat ab placeat nesciunt ducimus?
       </p>
     </div>
+    <div class="flex justify-center py-38">
+      <UButton
+        label="Let's build trust together"
+        variant="solid"
+        color="accent"
+        to="mailto:&#109;&#104;&#97;&#110;&#105;&#102;&#114;&#97;&#109;&#97;&#100;&#104;&#97;&#110;&#105;&#57;&#56;&#53;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
+        size="xl"
+        class="text-white"
+      />
+    </div>
   </section>
 </template>
