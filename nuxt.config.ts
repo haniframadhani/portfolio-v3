@@ -5,13 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   srcDir: "app/",
-  modules: [
-    "@nuxt/content",
-    "@nuxt/eslint",
-    "@nuxt/image",
-    "@nuxt/ui",
-    "@nuxtjs/color-mode",
-  ],
+  modules: ["@nuxt/content", "@nuxt/eslint", "@nuxt/image", "@nuxt/ui", "@nuxtjs/color-mode"],
   css: ["~/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
@@ -20,15 +14,7 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
     theme: {
-      colors: [
-        "primary",
-        "secondary",
-        "accent",
-        "info",
-        "success",
-        "warning",
-        "error",
-      ],
+      colors: ["primary", "secondary", "accent", "info", "success", "warning", "error"],
     },
   },
 });
