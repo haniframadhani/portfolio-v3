@@ -3,7 +3,7 @@ import Blog from "../card/Blog.vue";
 </script>
 
 <template>
-  <section class="my-16">
+  <section id="blog" class="my-16">
     <h2 class="font-display font-bold text-3xl md:text-4xl mb-12">
       Some of my insight
     </h2>

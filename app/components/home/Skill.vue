@@ -8,11 +8,13 @@ import Typescript from "~/assets/svg/Typescript.vue";
 </script>
 
 <template>
-  <section class="my-16">
+  <section id="skill" class="my-16">
     <h2 class="font-display font-bold text-3xl md:text-4xl mb-12">
       The building blocks
     </h2>
-    <div class="grid grid-cols-3 md:grid-cols-6 gap-y-6 md:gap-0 justify-items-center">
+    <div
+      class="grid grid-cols-3 md:grid-cols-6 gap-y-6 md:gap-0 justify-items-center"
+    >
       <Next class="size-24" />
       <Nuxt class="size-24" />
       <Laravel class="size-24" />
