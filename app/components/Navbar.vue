@@ -6,22 +6,28 @@ const route = useRoute();
 const items = computed<NavigationMenuItem[]>(() => [
   {
     label: "Home",
-    to: "/",
+    to: "/#home",
+    active: route.hash === "#home" || (route.path === "/" && !route.hash),
   },
   {
     label: "Projects",
-    to: "#projects",
-    active: route.path.startsWith("/projects"),
+    to: "/#project",
+    active: route.hash === "#project" || route.path.startsWith("/projects"),
   },
   {
     label: "Blog",
     to: "/blog",
-    active: route.path.startsWith("/blog"),
+    active: route.hash === "#blog" || route.path.startsWith("/blog"),
+  },
+  {
+    label: "Skills",
+    to: "/#skill",
+    active: route.hash === "#skill",
   },
   {
     label: "About",
-    to: "#about",
-    active: route.path === "#about",
+    to: "/#about",
+    active: route.hash === "#about",
   },
 ]);
 </script>

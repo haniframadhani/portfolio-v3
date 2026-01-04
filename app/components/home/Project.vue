@@ -3,7 +3,7 @@ import Project from "../card/Project.vue";
 </script>
 
 <template>
-  <section class="my-16">
+  <section id="project" class="my-16">
     <h2 class="font-display font-bold text-3xl md:text-4xl mb-12">
       Latest Trust Build
     </h2>

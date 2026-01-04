@@ -1,5 +1,5 @@
 <template>
-  <section class="my-16">
+  <section id="about" class="my-16">
     <h2 class="font-display font-bold text-3xl md:text-4xl mb-12">
       Halo, Saya Hanif
     </h2>
