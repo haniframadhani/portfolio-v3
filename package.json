@@ -15,11 +15,11 @@
     "prettier:write": "prettier --write ."
   },
   "dependencies": {
-    "@nuxt/content": "3.9.0",
     "@nuxt/eslint": "1.12.1",
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.3.0",
     "@nuxtjs/color-mode": "^4.0.0",
+    "@nuxtjs/supabase": "^2.0.3",
     "@tailwindcss/vite": "^4.1.18",
     "better-sqlite3": "^12.5.0",
     "eslint": "^9.0.0",
