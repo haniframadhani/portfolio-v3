@@ -6,7 +6,7 @@
 <template>
   <div>
     <AppNavbar />
-    <main class="-mt-(--ui-header-height)">
+    <main>
       <slot />
     </main>
     <AppFooter />

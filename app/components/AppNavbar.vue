@@ -16,8 +16,8 @@
     },
     {
       label: "Blog",
-      to: "/blog",
-      active: route.hash === "#blog" || route.path.startsWith("/blog"),
+      to: "/blogs",
+      active: route.hash === "#blogs" || route.path.startsWith("/blog"),
     },
     {
       label: "Skills",
