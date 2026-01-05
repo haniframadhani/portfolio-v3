@@ -9,6 +9,6 @@
       <Blog />
       <Blog />
     </div>
-    <NuxtLink to="#" class="block text-center underline">More of my insight</NuxtLink>
+    <NuxtLink to="/blogs" class="block text-center underline">More of my insight</NuxtLink>
   </section>
 </template>

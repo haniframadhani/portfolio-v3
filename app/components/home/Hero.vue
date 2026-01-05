@@ -58,7 +58,7 @@
 </script>
 
 <template>
-  <section id="home" class="grid content-center h-dvh">
+  <section id="home" class="grid content-center h-dvh-minus-header">
     <div
       class="absolute left-0 top-0 size-full -z-10 opacity-12 blur-[2px] bg-[url('/images/bg.webp')] bg-size-[60rem_auto] md:bg-cover bg-center md:bg-position-[center_left_15rem] bg-no-repeat" />
     <h3 class="text-xl md:text-3xl">Hi!, I'm Hanif</h3>
