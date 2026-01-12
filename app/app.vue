@@ -7,7 +7,11 @@
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <UApp>
+    <!-- <Toaster> -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+    <!-- </Toaster> -->
+  </UApp>
 </template>

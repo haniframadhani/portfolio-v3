@@ -2,7 +2,7 @@
   import Blog from "~/components/card/Blog.vue";
   import type { Database } from "~/types/database.types";
 
-  type Blogs = Database["public"]["Tables"]["projects"]["Row"];
+  type Blogs = Database["public"]["Tables"]["blogs"]["Row"];
 
   const client = useSupabaseClient();
   const { data: blogs } = await useAsyncData<Blogs[]>("blogs", async () => {

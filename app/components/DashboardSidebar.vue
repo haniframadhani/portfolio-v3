@@ -40,7 +40,7 @@
     try {
       const { error } = await client.auth.signOut();
       if (error) throw error;
-      router.push("/dashboard/signin");
+      router.push("/signin");
     } catch (error) {
       console.log(error); // eslint-disable-line no-console
     }

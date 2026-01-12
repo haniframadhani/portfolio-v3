@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import type { Database } from "~/types/database.types";
   import Blog from "../card/Blog.vue";
-  type Blogs = Database["public"]["Tables"]["projects"]["Row"];
+  type Blogs = Database["public"]["Tables"]["blogs"]["Row"];
   defineProps<{ blogs: Blogs[] }>();
 </script>
 

@@ -20,7 +20,7 @@
     <template #header>
       <UDashboardNavbar>
         <template #right>
-          <NuxtLink to="#">
+          <NuxtLink to="/dashboard/projects/create">
             <UButton color="secondary" class="text-white capitalize">add project</UButton>
           </NuxtLink>
         </template>

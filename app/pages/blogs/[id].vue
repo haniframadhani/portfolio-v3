@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import type { Database } from "~/types/database.types";
-  type Blogs = Database["public"]["Tables"]["projects"]["Row"];
+  type Blogs = Database["public"]["Tables"]["blogs"]["Row"];
   const client = useSupabaseClient();
   const route = useRoute();
   const { data: blog, error } = await useAsyncData<Blogs>(`blog-${route.params.id}`, async () => {

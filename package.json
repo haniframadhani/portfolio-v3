@@ -22,6 +22,10 @@
     "@nuxtjs/mdc": "^0.19.2",
     "@nuxtjs/supabase": "^2.0.3",
     "@tailwindcss/vite": "^4.1.18",
+    "@tiptap/extension-emoji": "^3.15.3",
+    "@tiptap/pm": "^3.15.3",
+    "@tiptap/starter-kit": "^3.15.3",
+    "@tiptap/vue-3": "^3.15.3",
     "better-sqlite3": "^12.5.0",
     "eslint": "^9.0.0",
     "nuxt": "^4.2.2",
@@ -29,7 +33,7 @@
     "typescript": "^5.6.3",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4",
-    "zod": "^3.24.0"
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.3.0",
