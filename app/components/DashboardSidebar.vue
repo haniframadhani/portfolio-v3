@@ -55,7 +55,14 @@
       <UNavigationMenu :items="items" orientation="vertical" />
     </template>
     <template #footer>
-      <UButton icon="i-lucide-log-out" class="w-full" color="error" @click="logout">logout</UButton>
+      <UButton
+        icon="i-lucide-log-out"
+        class="w-full"
+        color="error"
+        variant="outline"
+        @click="logout"
+        >logout</UButton
+      >
     </template>
   </UDashboardSidebar>
 </template>

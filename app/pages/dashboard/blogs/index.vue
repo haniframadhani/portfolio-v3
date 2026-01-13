@@ -28,7 +28,7 @@
     </template>
     <template #body>
       <div v-if="blogs && blogs.length > 0" class="grid gap-6 grid-cols-2">
-        <NuxtLink v-for="blog in blogs" :key="blog.id" to="#">
+        <NuxtLink v-for="blog in blogs" :key="blog.id" :to="`blogs/update/${blog.id}`">
           <Blog :title="blog.title" :thumbnail="blog.thumbnail" :excerpt="blog.excerpt" />
         </NuxtLink>
       </div>

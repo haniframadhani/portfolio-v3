@@ -28,7 +28,10 @@
     </template>
     <template #body>
       <div v-if="projects && projects.length > 0" class="grid gap-6 grid-cols-2">
-        <NuxtLink v-for="project in projects" :key="project.id" to="#">
+        <NuxtLink
+          v-for="project in projects"
+          :key="project.id"
+          :to="`/dashboard/projects/update/${project.id}`">
           <Project
             :title="project.title"
             :thumbnail="project.thumbnail"
