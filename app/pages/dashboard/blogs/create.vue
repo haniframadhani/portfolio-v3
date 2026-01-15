@@ -6,7 +6,10 @@
   import FormImageUpload from "~/components/form/FormImageUpload.vue";
   import { uploadThumbnail } from "~/composables/uploadThumbnail";
   import { insertIntoTable } from "~/composables/insertIntoTable";
-  import { projectAndBlogSchema, type ProjectAndBlogForm } from "~/schemas/projectAndBlog.schema";
+  import {
+    createProjectAndBlogSchema,
+    type CreateProjectAndBlogForm,
+  } from "~/schemas/projectAndBlog.schema";
   const toast = useToast();
   const router = useRouter();
   const MAX_TITLE_LENGTH = 255;
@@ -17,9 +20,9 @@
     content: undefined as string | undefined,
   });
 
-  const schema = projectAndBlogSchema;
+  const schema = createProjectAndBlogSchema;
 
-  type Schema = ProjectAndBlogForm;
+  type Schema = CreateProjectAndBlogForm;
 
   async function onSubmit(event: FormSubmitEvent<Schema>) {
     try {
