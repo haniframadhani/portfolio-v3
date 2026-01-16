@@ -28,6 +28,24 @@ export type Database = {
   };
   public: {
     Tables: {
+      about: {
+        Row: {
+          content: string;
+          created_at: string;
+          id: string;
+        };
+        Insert: {
+          content: string;
+          created_at?: string;
+          id?: string;
+        };
+        Update: {
+          content?: string;
+          created_at?: string;
+          id?: string;
+        };
+        Relationships: [];
+      };
       blogs: {
         Row: {
           content: string;

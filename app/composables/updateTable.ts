@@ -1,7 +1,7 @@
 import type { Database } from "~/types/database.types";
 
 export const updateTable = async (
-  table: "projects" | "blogs",
+  table: "projects" | "blogs" | "about",
   id: string,
   data: Database["public"]["Tables"][typeof table]["Update"]
 ) => {

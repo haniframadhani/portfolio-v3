@@ -28,4 +28,7 @@ export default defineNuxtConfig({
     redirect: false,
     types: false,
   },
+  routeRules: {
+    "/dashboard/**": { ssr: false },
+  },
 });
