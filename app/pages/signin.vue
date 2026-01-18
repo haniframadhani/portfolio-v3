@@ -56,6 +56,7 @@
         :fields="fields"
         class="max-w-md mx-auto"
         :submit="{ color: 'accent', class: 'text-white' }"
+        loading-auto
         @submit="onSubmit">
         <template #validation>
           <UAlert
