@@ -1,7 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  useHead({
+    htmlAttrs: {
+      class: "scroll-smooth",
+    },
+  });
+</script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <UApp>
+    <!-- <Toaster> -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+    <!-- </Toaster> -->
+  </UApp>
 </template>

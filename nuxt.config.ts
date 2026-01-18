@@ -6,11 +6,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: "app/",
   modules: [
-    "@nuxt/content",
     "@nuxt/eslint",
     "@nuxt/image",
     "@nuxt/ui",
     "@nuxtjs/color-mode",
+    "@nuxtjs/supabase",
+    "@nuxtjs/mdc",
   ],
   css: ["~/assets/css/main.css"],
   vite: {
@@ -20,15 +21,14 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
     theme: {
-      colors: [
-        "primary",
-        "secondary",
-        "accent",
-        "info",
-        "success",
-        "warning",
-        "error",
-      ],
+      colors: ["primary", "secondary", "accent", "info", "success", "warning", "error"],
     },
+  },
+  supabase: {
+    redirect: false,
+    types: false,
+  },
+  routeRules: {
+    "/dashboard/**": { ssr: false },
   },
 });

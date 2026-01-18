@@ -75,3 +75,7 @@
   --color-secondary: var(--color-secondary-500);
   --color-accent: var(--color-accent-400);
 }
+
+@utility h-dvh-minus-header {
+  height: calc(100dvh - var(--ui-header-height));
+}
